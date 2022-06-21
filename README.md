@@ -35,7 +35,7 @@ import numpy as np
 # Create the Text using cv2.putText
 img1 = np.zeros((100,1000),dtype='uint8')
 font=cv2.FONT_HERSHEY_SCRIPT_SIMPLEX
-cv2.putText(img1,'Pavan',(5,50),font,2,(255),3,cv2.LINE_AA)
+cv2.putText(img1,'Mahalakshmi',(5,50),font,2,(255),3,cv2.LINE_AA)
 cv2.imshow('My Image',img1)
 
 # Create the structuring element
